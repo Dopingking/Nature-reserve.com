@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en-ng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature Reserve Blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<style>
+  /* General styles */
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+h1 span {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(8, 223, 8);
+    padding: 10px;
+    color: black;
+    margin-right: 20px;
+}
+.brand {
+    color: white;
+    width: 30%;
+    display: inline;
+}
+#navigation {
+    background-color: black;
+    color: white;
+    padding: 30px 100px;
+}
+.nav {
+    display: inline;
+    float: right;
+}
+.nav li {
+    display: inline;
+    margin-left: 25px;
+    cursor: pointer;
+}
+ul a {
+    text-decoration: none;
+    color: white;
+}
+ul a:hover {
+    color: #f8c008;
+}
+.special {
+    background-color: #f8c008;
+    padding: 10px 15px;
+    color: black;
+    text-decoration: none;
+}
+.special:hover {
+    background-color: #242322;
+}
+#banner {
+    background-image: url("img/bg_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 350px;
+    padding: 10px;
+    text-align: center;
+}
+#banner h1 {
+    font-family: 'Rowdies', cursive;
+    font-size: 60px;
+    color: white;
+    margin-top: 10%;
+    text-shadow: rgba(0, 12, 0, 0.842) 10px 5px 2px;
+}
+#banner p {
+    background-color: rgba(0, 19, 0, 0.842);
+    padding: 15px 10px;
+    color: white;
+    font-size: 24px;
+    margin-top: -10%;
+    width: 60%;
+    margin: auto;
+}
+.content {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+.blog-post {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.blog-post h2 {
+    margin: 0 0 10px;
+}
+.blog-post .meta {
+    color: #777;
+    font-size: 14px;
+}
+.blog-post p {
+    margin: 10px 0;
+}
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    color: #fff;
+    background-color: #28a745;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.read-more:hover {
+    background-color: #218838;
+}
+#footer {
+    background-color: green;
+    text-align: center;
+    height: 80px;
+    margin-top: 40px;
+}
+#footer h1 {
+    line-height: 80px;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    #navigation {
+        padding: 20px;
+    }
+    .nav {
+        display: none;
+        text-align: center;
+    }
+    .nav li {
+        display: block;
+        margin: 10px 0;
+    }
+    #navigation:hover .nav {
+        display: block;
+    }
+    #banner h1 {
+        font-size: 40px;
+    }
+    #banner p {
+        font-size: 18px;
+    }
+}
+
+</style>
+<body>
+    <div id="navigation">
+        <h1 class="brand">Nature<span>Reserve</span></h1>
+        <ul class="nav">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="#Contact">Contact us</a></li>
+            <li class="special"><a href="tour.html">Book a Tour</a></li>
+        </ul>
+    </div>
+    <div id="banner">
+        <h1>Nature Reserve Blog</h1>
+        <p>Explore our latest updates and stories</p>
+    </div>
+    <div class="content">
+        <div class="blog-post">
+            <h2>Discover the Beauty of Our New Hiking Trail</h2>
+            <p class="meta">Posted on June 1, 2024 by George adedeji</p>
+            <p>Our new hiking trail offers breathtaking views of the park's diverse landscapes and wildlife. Join us for an unforgettable adventure...</p>
+            <a href="post1.html" class="read-more">Read More</a>
+        </div>
+        <div class="blog-post">
+            <h2>Spotlight on Endangered Species: The Majestic Eagle</h2>
+            <p class="meta">Posted on May 25, 2024 by King dope</p>
+            <p>The majestic eagle, a symbol of freedom and strength, is one of the most captivating species in our reserve. Learn more about its habits and conservation efforts...</p>
+            <a href="post2.html" class="read-more">Read More</a>
+        </div>
+        <div class="blog-post">
+            <h2>Volunteer Stories: Making a Difference at Nature Reserve</h2>
+            <p class="meta">Posted on May 15, 2024 by George solomon</p>
+            <p>Our volunteers are the heart of our community. Hear from Sarah, one of our dedicated volunteers, about her experiences and the impact she's made...</p>
+            <a href="post3.html" class="read-more">Read More</a>
+        </div>
+    </div>
+    <div id="footer">
+        <h1 class="brand">Nature<span>Reserve</span></h1>
+    </div>
+</body>
+</html>

@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+h1 span{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif,cursive;
+    background-color: rgb(8, 223, 8);
+    padding: 10px;
+    color:black;
+    margin-right: 20px;
+    
+}
+.brand {
+    color:white;
+    width: 30%;
+    display: inline;
+    /* background-color: seagreen; */
+}
+    
+
+#navigation{
+    background-color: black;
+    color:white;
+    padding: 30px 100px;
+}
+.nav{
+    display: inline;
+    float: right;
+
+}
+.nav li {
+    display: inline;
+    margin-left: 25px;
+    cursor:pointer;
+}
+ul a {
+    text-decoration: none;
+    color:white;
+}
+ul a:hover {
+    color: #f8c008;
+}
+.special{
+    background-color: #f8c008;
+    padding: 10px 15px;
+    color:black;
+    text-decoration: none;
+}
+.special:hover{
+    background-color: #242322;
+}
+#banner{
+    background-image: url("img/bg_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 550px;
+    padding:10px;
+    text-align: center;
+}
+ #banner h1{
+    font-family: Rowdies,cursive;
+    font-size:100px;
+    color:white;
+    margin-top: 10%;
+    text-shadow:rgba(0, 12, 0, 0.842) 10px 5px 2px;
+ }
+ #banner p{
+    background-color: rgba(0, 19, 0, 0.842);
+    padding: 15px 10px;
+    color:white;
+    font-size: 35px;
+    margin-top: -100%;
+    width:60%;
+    margin: auto;
+ }
+ #About{
+    background-image: url("https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 550px;
+    padding:10px;
+    text-align: center;
+ }
+ #About h1{
+    font-family: Rowdies,cursive;
+    font-size:100px;
+    color:white;
+    margin-top: 10%;
+    text-shadow:rgba(0, 12, 0, 0.842) 10px 5px 2px;
+ }
+ #About p{
+    background-color: rgba(0, 19, 0, 0.842);
+    padding: 15px 10px;
+    color:white;
+    font-size: 35px;
+    margin-top: -100%;
+    width:60%;
+    margin: auto;
+ }
+ hr{
+    margin: 120px 0px;
+ }
+ .video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+}
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.content {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top:30px;
+}
+
+.right-image {
+    border: 5px solid yellow;
+    border-radius: 10px;
+    width: 500px;
+    height: auto;
+}
+
+p {
+    margin: 0;
+    text-align:justify;
+    font-family: 'Roboto', sans-serif; 
+}
+
+#footer {
+    background-color: green;
+    text-align: center;
+    height: 80px;
+}
+
+#footer h1{
+    line-height: 80px;
+}
+

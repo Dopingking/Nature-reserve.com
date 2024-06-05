@@ -1,0 +1,57 @@
+@media (max-width: 600px) {
+    .content {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .right-image {
+        margin-top: 20px; /* Add some margin to the top for spacing */
+        width: 100%; /* Adjust image width for smaller screens */
+    }
+}
+@media only screen and (max-width: 768px) {
+    #navigation {
+        padding: 20px 20px; /* Reduce padding for smaller screens */
+    }
+
+    .nav {
+        display: block;
+        float: none; /* Remove floating for smaller screens */
+        text-align: center; /* Center-align navigation links */
+        margin-top: 10px; /* Add margin for better spacing */
+    }
+
+    .nav li {
+        display: block;
+        margin-left: 0;
+        margin-bottom: 10px; /* Add margin for better spacing */
+    }
+
+    #banner h1 {
+        font-size: 60px; /* Decrease font size for smaller screens */
+    }
+
+    #banner p {
+        font-size: 20px; /* Decrease font size for smaller screens */
+    }
+
+    .content {
+        grid-template-columns: 1fr; /* Change to a single column layout for smaller screens */
+        text-align: center; /* Center-align content */
+    }
+
+    .right-image {
+        width: 100%; /* Make the image full width for smaller screens */
+        margin: 20px 0; /* Add margin for better spacing */
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #banner h1 {
+        font-size: 40px; /* Further decrease font size for smaller screens */
+    }
+
+    #banner p {
+        font-size: 16px; /* Further decrease font size for smaller screens */
+    }
+}

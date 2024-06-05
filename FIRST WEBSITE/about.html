@@ -1,0 +1,294 @@
+<!--<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background: url(img/deji_img.jpg)  center; 
+  background-size: cover;
+  height: 500px;
+  position: relative;
+  border:5px solid black;
+  border-radius: 20px;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.block{
+  width: 500px;
+  height:200px;
+  margin-top: 10px;
+  margin-left: 30%;
+  padding:40px;
+ 
+}
+body{
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+h1{
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+a{
+  width: 300px;
+  height: 100px;
+  padding: 15px;
+  background-color: coral;
+  box-shadow: 10px 10px 5px lightblue;
+}
+</style>
+</head>
+<body>
+
+    <div class="block">
+      <div class="hero-image">
+        <div class="hero-text">
+          <h1>I am George adedeji</h1>
+          <h3>And I'm a software developer</h3>
+         <a href="my cv"><button>Hire me</button></a>
+        </div>
+      </div>
+      
+      <p>..</p>
+      <p>.</p>
+    </div>
+ 
+    
+      </body>
+      </html> -->
+    
+      <!DOCTYPE html>
+      <html lang="en-ng">
+      <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>About Me - Nature Reserve</title>
+          <link rel="stylesheet" href="styles.css">
+          <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+      </head>
+      <style>
+        /* General styles */
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+h1 span {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(8, 223, 8);
+    padding: 10px;
+    color: black;
+    margin-right: 20px;
+}
+.brand {
+    color: white;
+    width: 30%;
+    display: inline;
+}
+#navigation {
+    background-color: black;
+    color: white;
+    padding: 30px 100px;
+}
+.nav {
+    display: inline;
+    float: right;
+}
+.nav li {
+    display: inline;
+    margin-left: 25px;
+    cursor: pointer;
+}
+ul a {
+    text-decoration: none;
+    color: white;
+}
+ul a:hover {
+    color: #f8c008;
+}
+.special {
+    background-color: #f8c008;
+    padding: 10px 15px;
+    color: black;
+    text-decoration: none;
+}
+.special:hover {
+    background-color: #242322;
+}
+#banner {
+    background-image: url("img/bg_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 350px;
+    padding: 10px;
+    text-align: center;
+}
+#banner h1 {
+    font-family: 'Rowdies', cursive;
+    font-size: 60px;
+    color: white;
+    margin-top: 10%;
+    text-shadow: rgba(0, 12, 0, 0.842) 10px 5px 2px;
+}
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+.profile-image {
+    flex: 1;
+    text-align: center;
+}
+.profile-image img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 5px solid yellow;
+}
+.bio {
+    flex: 2;
+    padding: 20px;
+}
+.bio h2 {
+    margin: 0;
+    font-size: 28px;
+}
+.bio p {
+    margin: 10px 0;
+    text-align: justify;
+}
+.skills, .experience {
+    padding: 40px;
+    background-color: #fff;
+}
+.skills h2, .experience h2 {
+    text-align: center;
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+.skills ul, .experience ul {
+    list-style: none;
+    padding: 0;
+}
+.skills li, .experience li {
+    margin: 20px 0;
+    font-size: 18px;
+}
+.experience li h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+}
+.experience li p {
+    margin: 5px 0;
+    color: #777;
+}
+#footer {
+    background-color: green;
+    text-align: center;
+    height: 80px;
+    margin-top: 40px;
+}
+#footer h1 {
+    line-height: 80px;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    #navigation {
+        padding: 20px;
+    }
+    .nav {
+        display: none;
+        text-align: center;
+    }
+    .nav li {
+        display: block;
+        margin: 10px 0;
+    }
+    #navigation:hover .nav {
+        display: block;
+    }
+    #banner h1 {
+        font-size: 40px;
+    }
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .profile-image img {
+        width: 150px;
+        height: 150px;
+    }
+    .bio {
+        padding: 10px;
+    }
+}
+
+      </style>
+      <body>
+          <div id="navigation">
+              <h1 class="brand">Nature<span>Reserve</span></h1>
+              <ul class="nav">
+                  <li><a href="home.html">Home</a></li>
+                  <li><a href="about.html">About Me</a></li>
+                  <li><a href="blog.html">Blog</a></li>
+                  <li><a href="#Contact">Contact us</a></li>
+                  <li class="special"><a href="tour.html">Book a Tour</a></li>
+              </ul>
+          </div>
+          <div id="banner">
+              <h1>About Me</h1>
+          </div>
+          <div class="about-content">
+              <div class="profile-image">
+                  <img src="img/deji_img.jpg" alt="Your Name">
+              </div>
+              <div class="bio">
+                  <h2>GEORGE ADEDEJI</h2>
+                  <p>Hi! I'm a passionate web developer. I love the challenge of turning ideas into interactive experiences on the web. 
+                    I'm always eager to learn new technologies and improve my skills..</p>
+                 
+              </div>
+          </div>
+          <div class="skills">
+              <h2>Skills</h2>
+              <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>CRITICAL THINKING</li>
+                  <li>TIME MANAGEMENT</li>
+                  <li></li>
+              </ul>
+          </div>
+          <div class="experience">
+              <h2>Experience</h2>
+              
+                  <P>STILL LEARNING......</P>
+          </div>
+          <div id="footer">
+              <h1 class="brand">Nature<span>Reserve</span></h1>
+          </div>
+      
+          <div id="Contact"></div>
+      </body>
+      </html>
+      
